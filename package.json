@@ -67,5 +67,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jairobernal3000/pruebaGit.git"
   }
 }

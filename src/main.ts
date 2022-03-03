@@ -8,6 +8,8 @@ async function bootstrap() {
   const logger = new Logger('Bootstrap');
   const port = 3000;
   
+  console.log('Marica la cagué');
+
   initSwagger(app);
 
   await app.listen(port);

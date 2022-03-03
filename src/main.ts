@@ -8,6 +8,8 @@ async function bootstrap() {
   const logger = new Logger('Bootstrap');
   const port = 3000;
   
+  console.log('Conflicto');
+
   initSwagger(app);
 
   await app.listen(port);
